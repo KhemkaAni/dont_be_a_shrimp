@@ -2,7 +2,7 @@
   <img src="images/image.png" alt="Don't Be A Shrimp" width="150">
 </p>
 
-<h1 align="center">Don't Be A Shrimp</h1>
+<h1 align="center">Don't Be A Shrimp!</h1>
 
 <p align="center">
   <em>A minimal Chrome extension that reminds you to sit straight</em>
