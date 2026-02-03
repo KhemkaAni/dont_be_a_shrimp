@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don't Be A Shrimp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Don't be a shrimp</h1>
+
+    <div class="shrimp-container">
+      <img src="images/image.png" alt="Shrimp" class="shrimp-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="shrimp-placeholder">🦐</div>
+    </div>
+
+    <p class="instruction">Choose when you want to be reminded to sit straight</p>
+
+    <div id="feedback" class="feedback"></div>
+
+    <div class="interval-buttons">
+      <button class="interval-btn" data-minutes="15">15 min</button>
+      <button class="interval-btn" data-minutes="30">30 min</button>
+      <button class="interval-btn" data-minutes="45">45 min</button>
+      <button class="interval-btn" data-minutes="60">1 hour</button>
+    </div>
+
+    <div class="custom-interval">
+      <label for="custom-minutes">Custom:</label>
+      <input type="number" id="custom-minutes" min="1" max="1440" placeholder="min">
+      <button id="custom-btn">Set</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
