@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/image.png" alt="Don't Be A Shrimp" width="150">
+  <img src="images/shrimp-main.png" alt="Don't Be A Shrimp" width="150">
 </p>
 
 <h1 align="center">Don't Be A Shrimp!</h1>
